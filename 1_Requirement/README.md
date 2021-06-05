@@ -18,4 +18,7 @@ that travel together, actively coordinated in formation.
 
 # Defining the System
 
-
+The lead vehicles always interacts with other vehicles to 
+* Either include an extra vehicle into platoon or exclude existing vehicle from platoon
+* To provide and fetch infromation about environment with RSU (Road Side Unit).
+<img src = "SDLC.png" alt = "System"> 
