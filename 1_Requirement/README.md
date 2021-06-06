@@ -57,11 +57,22 @@ Upon idntifying the required area, robust physical communication structures has 
 
 # Detail Requirements
 
-## High Level requirements
+## High Level Requirements
 
 | ID | Description | Status |
 |----|------------|---------|
 |HR_01| Communication between vehicles| Implemented|
 |HR_02| Communication between vehicle and infrastructure| Implemented|
 |HR_03| Code Scalability| Implemented|
-|HR_04| Dynamic Mathemetical Model Formulation for different environment | Future| 
+|HR_04| Dynamic Mathemetical Model Formulation for different environment | Future|
+
+## Low Level Requirements
+
+| ID | Description | HLR_ID | Status |
+|----|-------------|--------|--------|
+| LR_01|Creation and Transmission of BSM | HR_01| Implemented |
+| LR_02|Creation and Transmission of WSA | HR_01| Implemented |
+| LR_03|Creation and Transmission of WSM | HR_02| Implemented |
+| LR_04|Data Transmission and Latency Calcualtion | HR_03| Implemented | 
+| LR_05|Simuation on variable vehicles | HR_03| Implemented | 
+|LR_06 |Collection of data to predict channel capacity and Dynamic Hindrance| HR_04 |Future|
