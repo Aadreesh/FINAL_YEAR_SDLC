@@ -59,3 +59,9 @@ Upon idntifying the required area, robust physical communication structures has 
 
 ## High Level requirements
 
+| ID | Description | Status |
+|----|------------|---------|
+|HR_01| Communication between vehicles| Implemented|
+|HR_02| Communication between vehicle and infrastructure| Implemented|
+|HR_03| Code Scalability| Implemented|
+|HR_04| Dynamic Mathemetical Model Formulation for different environment | Future| 
